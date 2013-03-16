@@ -1,6 +1,6 @@
 www:
     type: php
-    approot: conference-dotcloud/app
-    postinstall: ./mysql.php
+    approot: .
+    postinstall: ./conference-dotcloud/app/mysql.php
 db:
     type: mysql
